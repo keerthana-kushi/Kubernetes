@@ -1,0 +1,20 @@
+<!-- templates/register.html -->
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title>Register</title>
+</head>
+<body>
+<h2>Register</h2>
+
+<form th:action="@{/register}" th:object="${user}" method="post">
+  <label>Username: <input type="text" th:field="*{username}"/></label><br/><br/>
+  <label>Password: <input type="password" th:field="*{password}"/></label><br/><br/>
+  <button type="submit">Register</button>
+</form>
+
+<!-- 🔗 Add this below the form -->
+<p>Already have an account? <a th:href="@{/login}">Login here</a></p>
+
+</body>
+</html>
