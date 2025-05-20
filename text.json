@@ -1,0 +1,56 @@
+{
+    "students": [
+      {
+        "name": "John Doe",
+        "subjects": [
+          {
+            "name": "Mathematics",
+            "percentage": 85
+          },
+          {
+            "name": "English",
+            "percentage": 78
+          },
+          {
+            "name": "Science",
+            "percentage": 92
+          }
+        ]
+      },
+      {
+        "name": "Jane Smith",
+        "subjects": [
+          {
+            "name": "Mathematics",
+            "percentage": 88
+          },
+          {
+            "name": "English",
+            "percentage": 82
+          },
+          {
+            "name": "Science",
+            "percentage": 79
+          }
+        ]
+      },
+      {
+        "name": "Emily Johnson",
+        "subjects": [
+          {
+            "name": "Mathematics",
+            "percentage": 91
+          },
+          {
+            "name": "English",
+            "percentage": 84
+          },
+          {
+            "name": "Science",
+            "percentage": 89
+          }
+        ]
+      }
+    ]
+  }
+  
